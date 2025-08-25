@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rounded square -->
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="#17363C"/>
+  <!-- Chat bubble -->
+  <g>
+    <rect x="48" y="56" width="160" height="104" rx="20" fill="#22A26A"/>
+    <path d="M110 160 L98 190 C96 194 101 197 104 194 L136 160" fill="#22A26A"/>
+  </g>
+  <!-- Padlock -->
+  <g>
+    <!-- Shackle -->
+    <path d="M132 110 V100 C132 88 122 78 110 78 C98 78 88 88 88 100 V110" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Body -->
+    <rect x="80" y="110" width="60" height="46" rx="8" fill="white"/>
+    <!-- Keyhole -->
+    <circle cx="110" cy="133" r="7" fill="#22A26A"/>
+    <rect x="106" y="133" width="8" height="12" rx="4" fill="#22A26A"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "Comment Enforcement",
+    "short_description": "Require comments and enforce public/private on non-Solved tickets.",
+    "long_description": "Comment Enforcement prevents silent updates and enforces the correct comment type on non-Solved tickets. Default mode is Force Public.",
+    "installation_instructions": "Upload this app ZIP and install. Mode defaults to force_public; you can change it to require_any or force_private.",
+    "parameters": {
+      "mode": {
+        "label": "Enforcement mode",
+        "helpText": "Enter one of: require_any, force_public, or force_private. Default is force_public."
+      },
+      "autofixType": {
+        "label": "Auto-switch wrong comment type when possible",
+        "helpText": "If enabled, the app attempts to set the composer to the required type before blocking."
+      },
+      "minLength": {
+        "label": "Minimum required characters",
+        "helpText": "Set a minimum comment length. 0 disables."
+      }
+    }
+  }
+}

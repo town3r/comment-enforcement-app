@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" rx="64" fill="#03492f"/>
+  <g transform="translate(60,60)" fill="white">
+    <!-- Chat bubble -->
+    <path d="M200 100c0 44.2-35.8 80-80 80h-20l-40 30v-30c-33.1 0-60-26.9-60-60s26.9-60 60-60h80c33.1 0 60 26.9 60 60z"/>
+    <!-- Padlock -->
+    <rect x="80" y="80" width="60" height="50" rx="8" ry="8" fill="white"/>
+    <path d="M95 80v-15c0-17 13-30 30-30s30 13 30 30v15h-15v-15c0-8.3-6.7-15-15-15s-15 6.7-15 15v15h-15z" fill="white"/>
+  </g>
+</svg>

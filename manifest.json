@@ -1,0 +1,45 @@
+{
+  "name": "Comment Enforcement",
+  "author": {
+    "name": "Ben Towne",
+    "email": "btowne@zendesk.com",
+    "url": "http://www.town3r.com/"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "singleInstall": true,
+  "frameworkVersion": "2.0",
+  "version": "1.0.3",
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      },
+      "new_ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "mode",
+      "type": "text",
+      "label": "Enforcement mode (require_any | force_public | force_private)",
+      "default": "force_public",
+      "required": true
+    },
+    {
+      "name": "autofixType",
+      "type": "checkbox",
+      "label": "Auto-switch wrong comment type when possible"
+    },
+    {
+      "name": "minLength",
+      "type": "number",
+      "label": "Minimum required characters for the comment (0 disables)",
+      "default": 0
+    }
+  ]
+}
